@@ -275,7 +275,7 @@ const serveFile = (req, res) => {
   }
 };
 
-exports.listFiles = (req, res) => {
+const listFiles = (req, res) => {
   try {
     const userRole = req.user.role;
 
